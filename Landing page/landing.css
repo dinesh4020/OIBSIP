@@ -1,0 +1,68 @@
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    word-spacing: 50%;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+}
+.menu a:hover:before{
+    width: 90%;
+
+}
+.Know a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: slategray;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.Know a:hover{
+    background: transparent;
+    border:1px solid indianred;
+}
+.htxt{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.htxt span{
+    letter-spacing: 5px;
+}
+
+.htxt h1{
+    font-size: 3.5em;
+}
+.htxt a{
+    text-decoration: none;
+    background: indianred;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+
+}
+.htxt a:hover{
+    background: transparent;
+    border:1px solid indianred;
+}
